@@ -1,0 +1,116 @@
+body{
+	margin:0;
+	height: 100%;
+	background-size: cover;
+}
+
+.header{
+	background:linear-gradient(rgb(44,24,149),rgb(137,91,204));
+	height: 150px;
+	font-size: 30px;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.location{
+	padding: 0px;
+	font-size: 24px;
+	margin-bottom: 20px;
+	box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+	border:2px solid black;
+}
+
+.banquate{
+	position: relative;
+	width: 350px;
+	border:3px solid none;
+	font-size: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 5px;
+	margin: 20px;
+}
+.banquate:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	/*width: 355px;
+	font-size: 21px;*/			
+}
+.banquate img{
+	/*position: absolute;*/
+	height: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	/*border: 2px solid white;*/
+	border-radius: 5px 5px 0 0;
+}
+.grid-container{
+	display: inline-grid;
+	grid-template-columns: auto auto;
+}
+.content{
+	background-color: black;
+	opacity: .6;
+	color: white;
+	align-items: center;
+}
+h2{
+	font-family: 'Open Sans Condensed';
+	margin-top: -40px;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	padding: 0px;
+	color: white;
+}
+p{
+	font-family: 'Open Sans Condensed';
+	margin-top: 5px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+}
+h5{
+	font-family: 'Open Sans Condensed';
+	position: absolute;
+	margin-top: 0;
+	margin-left: 8px;
+}
+form{
+	text-align: center;
+	margin-top: 20px;
+}
+input[type="submit"]{
+	color: white;
+	font-size: 25px;
+	background:linear-gradient(to right,#F5A619,#F12B12);
+	border-style: solid;
+	border:0.25px;
+	border-color: #1565C0;
+	width: 100%;
+	height: 40px;
+	/*border-radius: 3px;*/
+	margin: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+input[type="submit"]:hover{
+	background:linear-gradient(to right,#F12B12,#F5A619);		
+}
+input[type="date"]{
+	padding: 0px;
+	margin: 15px;
+	margin-bottom: 0px;
+	outline: none;
+	width: 125px;
+    /*border:none;*/
+    border-radius: 6px;
+	border-bottom: 2px solid white ;
+	background: transparent;
+	color: white;	
+}
+input[name="back"]{
+	height: 100%;
+	width: 100px;
+	margin:0px;
+}

@@ -1,0 +1,94 @@
+
+#regBack{ 
+	background: url(backGround.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-height: 100%;
+	width: auto;
+	max-width: 100%;
+
+}
+body html{
+	height: 100%;
+	margin: 0;
+}
+.formDiv {
+	position: fixed;
+	top:28%;
+	left:57%;
+
+}
+.logIcon {
+  position: absolute;
+  font-size: 16px;
+}
+
+.logIcon input {
+  width: 330px;
+  height: 34px;
+  outline: none;
+  border:0;
+  background: transparent;
+  border-bottom: 1px solid #aaa;
+  border-radius: 5px;
+  
+}
+.logIcon input {
+	 text-indent: 38px;
+	}
+
+.logIcon .fa-envelope { 
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+.logIcon .fa-key { 
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+.logIcon .fa-user-tie { 
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
+.logbttn{
+	border-radius: 30px;
+	border: 0;
+	width: 125px;
+	height: 32px;
+	font-size: 18px;
+	color:white;
+	background: #f12711;  
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
+}
+.logbttn:hover{
+	border-radius: 30px;
+	border: 0;
+	width: 128px;
+	height: 35px;
+	font-size: 20px;
+	color:white;
+	background: #f12711;  
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  
+    background: linear-gradient(to right, #f5af19, #f12711); 
+}
+.logo{
+	position: fixed;
+	top:38%;
+	left:16%;
+}
+.logo h1{
+	color:white;
+	font-size: 3.2em;
+}
+.logo h1 span{
+	color:black;
+}
+.logo p{
+	color: white;
+	font-size: 1.3em;
+}
+
